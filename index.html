@@ -1,14 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Todo List</title>
-    <link rel="stylesheet" href="main.css">
-</head>
-<body>
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">TODO LIST</a>
+      </div>
+    </nav>
+
+    <!-- <div class="m-3">
+      <div class="alert alert-warning alert-dismissible fade show shadow" role="alert">
+        this is what the toto would look like
+        <button
+          type="button"
+          class="close"
+          data-dismiss="alert"
+          aria-label="Close"
+        >
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+    </div> -->
+
     
-</body>
-    <script src="main.js"></script>
+    <div id="root">
+        <!-- This is where the todo will go.. -->
+    </div>
+
+    <!-- <p>Please view in mobile fiew</p> -->
+
+    <footer class="footer navbar-dark bg-dark">
+      <form class="form-inline mt-2 mt-md-0">
+        <input class="form-control mr-sm-2 m-2" type="text" placeholder="Search" aria-label="Search">
+        <button type="button" class="btn btn-info w-100 m-2">ADD</button>
+      </form>
+    </footer>
+
+
+  </body>
+
+  <script src="jquery-3.3.1.js"></script>
+  <script src="main.js"></script>
+
 </html>
